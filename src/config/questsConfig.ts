@@ -3,11 +3,11 @@ import { CustomClient } from "../core/customClient.js";
 export default {
     notification: {
         token: "--" ,// self accouont token (not bot)
-        channel: "1414963290391707779",
-        role: "1405572212403994684",
+        channel: "1486510522974212196",
+        role: "1485729627006570658",
         dm: {
             enabled: true,
-            dmRoles: ["1405572212403994684"], // Roles to receive DMs
+            dmRoles: ["1485729627006570658"], // Roles to receive DMs
         }
 
     },
@@ -23,14 +23,14 @@ export default {
     ],
 
     image: {
-        channelId: "1421221274721456242", // channel where bot will upload images
-        guildId: "1399471603003428966", // server where bot will upload images
+        channelId: "1486510522974212196", // channel where bot will upload images
+        guildId: "1482872506338644113", // server where bot will upload images
     },
-    serverId: "1399471603003428966", // Server where the bot operates
-    completedQuestsChannel: "1414963290391707779",
+    serverId: "1482872506338644113", // Server where the bot operates
+    completedQuestsChannel: "1485729627006570658",
     voice: {
-        channel: "1421938834651742270", // Voice channel for quests
-        role: "1405572212403994684" // Role required for voice channel access
+        channel: "1486510522974212196", // Voice channel for quests
+        role: "1485729627006570658" // Role required for voice channel access
     },
 
 
