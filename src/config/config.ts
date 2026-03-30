@@ -26,6 +26,6 @@ export default {
     // قاعدة البيانات
     database: {
         type: SupportedDatabaseTypes.MongoDB,
-        url: process.env.MONGO_URI || "mongodb://mongo:AkofLnGOYNkivehfGXEaDsNsXEvHXiAv@mongodb.railway.internal:27017",
+        url: process.env.MONGO_URI || "mongodb://localhost:27017/badge2",
     },
 } as Config;
